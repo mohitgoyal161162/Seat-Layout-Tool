@@ -1,0 +1,69 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.division1 {
+    position: relative;
+    width: 40%;
+    float: left;
+    padding: 20px;
+}
+
+.division2 {
+    position:relative;
+   width: 60%;
+   float: right;
+   padding: 20px;
+}
+
+select {
+    display: block;
+    margin-bottom: 20px;
+    height: 20px;
+}
+
+#table-row,#table-row td,#table-row th {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+td, th {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+#seat-layout{
+  border: 1px solid #ddd;
+  position: relative;
+}
+
+.seat-cell{
+  /* text-overflow: ellipsis; */
+  width:'20px';
+  height: '20px';
+  max-width: '20px';
+  max-height: '20px';
+  overflow: hidden;
+  text-align: left;
+  min-width: '20px';
+  min-height: '20px';
+}
+
+#vendor-id{
+  float: right;
+  margin-left: 20px;
+  font-weight: bold;
+  position: relative;
+  top: -55px;
+}
+  
+	
+	
+	
